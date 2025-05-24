@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rathore's Coaching Classes</title>
+    <link href="mystyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Learn with mamta</h1>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu" id="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="reviews.html">Review</a>    
+            <a href="stulist.html">List of my students</a>
+        </div>
+    </nav>
+    <div class="imagecont">
+        <img src="assets/images/apple-1853259_1280 (1).webp" class="fulscr">
+        <div class="marquee" >
+            <p>"From Basics to Brilliance — Learn Coding with Confidence!"</p>
+        </div>
+        
+        <div class="cou">
+            <h1>Courses Offered:</h1>
+            <ul>
+                <li>11th and 12th</li>
+                    <ul>
+                        <li>Computer Science State</li>
+                        <li>Computer Science CBSE</li>
+                        <ul>
+                            <li>C++ </li>
+                            <li>Python</li>
+                        </ul>
+                    
+                    </ul>
+                <li>Engineering</li>
+                <ul>
+                    <li>C++</li>
+                    <li>Python</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="con">
+                <h3 class="mamta">Mode of Learning:Online and In-person</h3>
+                <h3 class="mamta">Contact me:</h3>
+                <a href="https://www.linkedin.com/in/mamta-r-965032165" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&to=mamtarathore161344@gmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
+            
+        </div>
+    
+    </div>
+
+
+    <footer>
+        <p>&copy;built by mamta</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+          document.getElementById('menu').classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>

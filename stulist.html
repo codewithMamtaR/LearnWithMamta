@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of students</title>
+    <link href="mystyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <style>
+        .student-profile {
+      display: flex;
+      background-color:beige;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-width: 800px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+    }
+    .student-info {
+      padding: 20px;
+      flex: 1;
+    }
+
+    .student-info h2,h3 {
+      margin-bottom: 10px;
+      color:black;
+    }
+
+    @media (max-width: 768px) {
+      .student-profile {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .student-profile img {
+        width: 100%;
+      }
+
+      .student-info {
+        padding: 15px;
+        text-align: center;
+      }
+    }
+    h1{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:beige;
+    }
+    body{
+        background: linear-gradient(to right,hwb(273 28% 53%),hwb(184 59% 34%));
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Learn with mamta</h1>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu" id="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="reviews.html">Review</a>    
+            <a href="stulist.html">List of my students</a>
+        </div>
+    </nav>
+    <h1>My Students</h1>
+    <div class="student-profile">
+        <img src="assets/images/Amruta mustyalwar c ycce.webp">
+        <div class="student-info">
+            <h2>Name:Amruta M</h2>
+            <h3>Subject :C</h3>
+            <h3>Class:Second Year</h3>
+            <h3>College:YCCE,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/narayana.webp">
+        <div class="student-info">
+            <h2>Name:Susnata M</h2>
+            <h3>Subject :Computer Science C++ CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Narayana Vidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Ayushi atkat Santaji state.webp">
+        <div class="student-info">
+            <h2>Name:Ayushi A</h2>
+            <h3>Subject :Computer Science State</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Santaji Dhanaji Mahavidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/govt poly ccpp.webp">
+        <div class="student-info">
+            <h2>Name:Adhish P</h2>
+            <h3>Subject :C,C++,Java</h3>
+            <h3>Class:Second year,Polytechnic</h3>
+            <h3>College:Govt.Polytechnic,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/royal gondwana.webp">
+        <div class="student-info">
+            <h2>Name:Toshik G</h2>
+            <h3>Subject :Computer Science C++ CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Royal Gondwana,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/ameya karmare c cpp ds bhausaheb malik coe.webp">
+        <div class="student-info">
+            <h2>Name:Ameya K</h2>
+            <h3>Subject :C,C++,DS</h3>
+            <h3>Class:Second Year B.E</h3>
+            <h3>School:Bhausaheb College of Engineering,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/montfor.webp">
+        <div class="student-info">
+            <h2>Name:Nidhi J</h2>
+            <h3>Subject :Computer Science C++ CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Montfort ,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/srishti vaidya major hemabt jakate state eng cs.webp">
+        <div class="student-info">
+            <h2>Name:srishti V</h2>
+            <h3>Subject :Computer Science State</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Major Hemant Jakate ,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/skul of akolar cbse.webp">
+        <div class="student-info">
+            <h2>Name:Harshada A</h2>
+            <h3>Subject :Computer Science CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>School:School of Scholars ,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/nikalas mohinist.webp">
+        <div class="student-info">
+            <h2>Name:Mohini H</h2>
+            <h3>Subject :Computer Science State</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Somalwar Nikalas,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shivani patharkar nyss collg.webp">
+        <div class="student-info">
+            <h2>Name:Shivani P</h2>
+            <h3>Subject :C,C++</h3>
+            <h3>Class:second year</h3>
+            <h3>College:NYSS College,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/bhartiya Vidya bhavan cbse.webp">
+        <div class="student-info">
+            <h2>Name:Saumya T</h2>
+            <h3>Subject :Computer Science C++ CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Bhartiya Vidya Bhavan,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/jayesh gandharv sindhi hindi.webp">
+        <div class="student-info">
+            <h2>Name:Jayesh G</h2>
+            <h3>Subject :Computer Science C++ State</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Sindhi Hindi High School,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/kendriya vidyalay.webp">
+        <div class="student-info">
+            <h2>Name:Shweta K</h2>
+            <h3>Subject :Computer Science C++ CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Kendriya Vidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/dinanath stst.webp">
+        <div class="student-info">
+            <h2>Name:Nikhil R</h2>
+            <h3>Subject :Computer Science C++ State</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Dinanath High school,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/kendriya.webp">
+        <div class="student-info">
+            <h2>Name:Shreya C</h2>
+            <h3>Subject :Computer Science C++ CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Kendriya Vidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/priya sawarkar mkh sancheti cs st.webp">
+        <div class="student-info">
+            <h2>Name:Priya S</h2>
+            <h3>Subject :Computer Science C++ State</h3>
+            <h3>Class:12th</h3>
+            <h3>School:MKH Sancheti,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/ansh chaphekar.webp">
+        <div class="student-info">
+            <h2>Name:Anshuman C</h2>
+            <h3>Subject :C,C++</h3>
+            <h3>Class:Final year B.E.</h3>
+            <h3>College:Raisoni College,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/govt college of Engg cpp sec yr.webp">
+        <div class="student-info">
+            <h2>Name:Puneet J</h2>
+            <h3>Subject :DS,C++</h3>
+            <h3>Class:Second year B.E.</h3>
+            <h3>College:Government College of Engineering,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/c cpp be first year.webp">
+        <div class="student-info">
+            <h2>Name:Daivanti T</h2>
+            <h3>Subject :DS,C++</h3>
+            <h3>Class:First year B.E.</h3>
+            <h3>College:College of Engineering,Pune</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/bench thomas.webp">
+        <div class="student-info">
+            <h2>Name:Bency T</h2>
+            <h3>Subject :C,C++</h3>
+            <h3>Class:First year B.E.</h3>
+            <h3>College:College of Engineering,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Bhagyashree patil.webp">
+        <div class="student-info">
+            <h2>Name:Bhagyashree P</h2>
+            <h3>Subject :Computer Science CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>Scchool:Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shivaji science stat.webp">
+        <div class="student-info">
+            <h2>Name:Nishant T</h2>
+            <h3>Subject :Computer Science State</h3>
+            <h3>Class:12th</h3>
+            <h3>College:Shivaji Science,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/lakshya singh vija.webp">
+        <div class="student-info">
+            <h2>Name:Lakshya S</h2>
+            <h3>Subject :Computer Science State</h3>
+            <h3>Class:12th</h3>
+            <h3>School:Vijaya Nimbalkar,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/montfort.webp">
+        <div class="student-info">
+            <h2>Name:Niharika P</h2>
+            <h3>Subject :Computer Science C++ CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>College:Montfort Scchool,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/rahul sonwalkar santaji.webp">
+        <div class="student-info">
+            <h2>Name:Rahul S</h2>
+            <h3>Subject :Computer Science state</h3>
+            <h3>Class:12th</h3>
+            <h3>College:Santaji Dhanaji Mahavidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Prajwal bhagat c cpp palooti.webp">
+        <div class="student-info">
+            <h2>Name:Prajwal B</h2>
+            <h3>Subject :C,C++</h3>
+            <h3>Class:Second year</h3>
+            <h3>College:St.Vincent Pallotti College of Engineering,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/skul if scolar.webp">
+        <div class="student-info">
+            <h2>Name:Neha K</h2>
+            <h3>Subject :Computer science C++ CBSE</h3>
+            <h3>Class:12th </h3>
+            <h3>College:School of Sccholars,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/mitali yenprediwar be c sec yr.webp">
+        <div class="student-info">
+            <h2>Name:Mitali Y</h2>
+            <h3>Subject :C,C++</h3>
+            <h3>Class:second year </h3>
+            <h3>College:Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/govil jagtap govt college acpl.webp">
+        <div class="student-info">
+            <h2>Name:Govil J</h2>
+            <h3>Subject :Advanced C</h3>
+            <h3>Class:second year B.E </h3>
+            <h3>College:Governmnet College Of Engg,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/abhijeet khedekar yashoda hi.webp">
+        <div class="student-info">
+            <h2>Name:Abhijeet K</h2>
+            <h3>Subject :Computer Science State</h3>
+            <h3>Class:12th </h3>
+            <h3>College:Yashoda high school and junior college,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/ekta narayana.webp">
+        <div class="student-info">
+            <h2>Name:Ekta M</h2>
+            <h3>Subject :Computer Science CBSE</h3>
+            <h3>Class:12th </h3>
+            <h3>School:Narayana Vidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Ashu bal taywade colstate.webp">
+        <div class="student-info">
+            <h2>Name:Ashutosh B</h2>
+            <h3>Subject :Computer Science state</h3>
+            <h3>Class:12th </h3>
+            <h3>School:Taywade,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Aditya zodpe star santaji.webp">
+        <div class="student-info">
+            <h2>Name:Aditya Z</h2>
+            <h3>Subject :Computer Science state</h3>
+            <h3>Class:12th </h3>
+            <h3>School:Santaji Dhanaji Mahavidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/raisoni c.webp">
+        <div class="student-info">
+            <h2>Name:Akhilesh S</h2>
+            <h3>Subject :C++</h3>
+            <h3>Class:second year,B.E </h3>
+            <h3>College:Raisoni College,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/rohan thakarey maths electronics kirana Pandava mahavi.webp">
+        <div class="student-info">
+            <h2>Name:Rohan T</h2>
+            <h3>Subject :C,Maths ,Electronics</h3>
+            <h3>Class:second year </h3>
+            <h3>College:Kirana Pandava ,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/arya Sawai cpp third year nik mahila.webp">
+        <div class="student-info">
+            <h2>Name:Aarya S</h2>
+            <h3>Subject :C++</h3>
+            <h3>Class:Third year </h3>
+            <h3>College:Nikalasa Mahila Mahavidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/avrita gupta yashoda sts.webp">
+        <div class="student-info">
+            <h2>Name:Avrita G</h2>
+            <h3>Subject :Computer Science State</h3>
+            <h3>Class:12th </h3>
+            <h3>School:Yashoda High School,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/ankit meshram santaji st.webp">
+        <div class="student-info">
+            <h2>Name:Ankit M</h2>
+            <h3>Subject :Computer Science State</h3>
+            <h3>Class:12th </h3>
+            <h3>School:Santaji Dhanaji Mahavidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Dr bower appostolic.webp">
+        <div class="student-info">
+            <h2>Name:Tejas N</h2>
+            <h3>Subject :Computer Science State</h3>
+            <h3>Class:12th </h3>
+            <h3>School:Dr.Bower Apostolic Junior College,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/cpp be sec yr ycce.webp">
+        <div class="student-info">
+            <h2>Name:Vrushali T</h2>
+            <h3>Subject :C++</h3>
+            <h3>Class:Second year,B.E</h3>
+            <h3>College:YCCE,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Santaji pranjal mendhekar.webp">
+        <div class="student-info">
+            <h2>Name:Pranjal M</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>School:Santaji Dhanaji Mahavidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shashank mall modern sku.webp">
+        <div class="student-info">
+            <h2>Name:Shashank M</h2>
+            <h3>Subject :Computer science CBSE</h3>
+            <h3>class:12th</h3>
+            <h3>School:Modern school,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shawani hasija oop g h raisoni.webp">
+        <div class="student-info">
+            <h2>Name:Shawani H</h2>
+            <h3>Subject :OOP</h3>
+            <h3>class:second year B.E</h3>
+            <h3>College:Raisoni College,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/new apostolic.webp">
+        <div class="student-info">
+            <h2>Name:Chetan M</h2>
+            <h3>Subject :Computer science ,State</h3>
+            <h3>class:12th</h3>
+            <h3>College:-New Apostolic,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/chinamay metangle c ycce.webp">
+        <div class="student-info">
+            <h2>Name:Chinmay M</h2>
+            <h3>Subject :C</h3>
+            <h3>class:second year</h3>
+            <h3>College:YCCE,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/pranav gupta 12 state santaji.webp">
+        <div class="student-info">
+            <h2>Name:Pranava G</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>College:Santaji Dhanaji Mahavidyalaya ,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Pallavi pazare c ds.webp">
+        <div class="student-info">
+            <h2>Name:Pallavi P </h2>
+            <h3>Subject :C,DS</h3>
+            <h3>College:Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/jayasankar g amrita co of Engg c.webp">
+        <div class="student-info">
+            <h2>Name:Jaishankar G</h2>
+            <h3>Subject :C</h3>
+            <h3>class:second year B.E</h3>
+            <h3>College:Amrita College of Engineering</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/amal school of.webp">
+        <div class="student-info">
+            <h2>Name:Amal S</h2>
+            <h3>Subject :Computer science C++ CBSE</h3>
+            <h3>class:12th</h3>
+            <h3>School:School of scholars</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/rohit kumar c btech.webp">
+        <div class="student-info">
+            <h2>Name:Rohit K</h2>
+            <h3>Subject :C</h3>
+            <h3>class:Final year B.Tech</h3>
+            <h3>College :Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/kanchan dhanwant mkh sancheti 12 st.webp">
+        <div class="student-info">
+            <h2>Name:Kanchan D</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>school :MKH Sancheti,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/sarang siras 12 st shri niketan mahavidyalay.webp">
+        <div class="student-info">
+            <h2>Name:Sarang S</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>school :Shri niketan High School,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/IMG_20230407_123122.webp">
+        <div class="student-info">
+            <h2>Name:Shrirang S</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>school :Shri niketan High School,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/darshan nandekar manipal ins of tech cpp.webp">
+        <div class="student-info">
+            <h2>Name:Darshan N</h2>
+            <h3>Subject :C++</h3>
+            <h3>class:B.Tech</h3>
+            <h3>college :Manipal Institute of Technology,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/sarvesh jivane cs mokhare colleg.webp">
+        <div class="student-info">
+            <h2>Name:Sarvesh J</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:11th ,12th</h3>
+            <h3>college :Mokhare College,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shruti jiwane sancheti public.webp">
+        <div class="student-info">
+            <h2>Name:Shruti J</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:11th ,12th</h3>
+            <h3>School-MKH Sancheti public school,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shrawani mendhule Ambedkar.webp">
+        <div class="student-info">
+            <h2>Name:Shrawani M</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>School-Dr.Ambedkar College,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/sajil jith taywade.webp">
+        <div class="student-info">
+            <h2>Name:Sajil J</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>School-Taywade College,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/saahil sangidwar cs state radha mahavidya.webp">
+        <div class="student-info">
+            <h2>Name:Sahil S</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>School-Radha Mahavidyalay,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/basavraj hadpad dinanath.webp">
+        <div class="student-info">
+            <h2>Name:Basawraj H</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>College:Dinanath college,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/tanu Santaji ccpp.webp">
+        <div class="student-info">
+            <h2>Name:Tanu K</h2>
+            <h3>Subject :C,C++</h3>
+            <h3>class:second year</h3>
+            <h3>College:Santaji Dhanaji Mahavidyalaya</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/upasana kamdi java core mca sec yr.webp">
+        <div class="student-info">
+            <h2>Name:Upasana K</h2>
+            <h3>Subject :Core java</h3>
+            <h3>class:second year,MCA</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shri shrikhand state vijaya Nimbalkar.webp">
+        <div class="student-info">
+            <h2>Name:Shrikant S</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>School:Vijaya Nimbalkar</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/satyam gupta sta vijay.webp">
+        <div class="student-info">
+            <h2>Name:Satyam G</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>School:Vijaya Nimbalkar,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/state prerna ju.webp">
+        <div class="student-info">
+            <h2>Name:Tanay T</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>School:Prerna college ,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/aditi jichkar khatri college chandrapur.webp">
+        <div class="student-info">
+            <h2>Name:Aditi J</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>School:Khatri college ,chandrapur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Heena Mehta state mkh sancheti pub sku.webp">
+        <div class="student-info">
+            <h2>Name:Heena M</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>School:MKH Sancheti,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shubham masram govt poly c.webp">
+        <div class="student-info">
+            <h2>Name:Shubham M</h2>
+            <h3>Subject :C</h3>
+            <h3>class:second year </h3>
+            <h3>School:Government Polytechnic,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/himanshu kala vijaya Nimbalkar eleven twel sta.webp">
+        <div class="student-info">
+            <h2>Name:Himanshu K</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:11th,12th</h3>
+            <h3>college:Vijaya Nimbalkar college,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/12th St smt janki Devi Jaiswal jr clg.webp">
+        <div class="student-info">
+            <h2>Name:Sagar D</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:11th,12th</h3>
+            <h3>college:-Smt Jankidevi Jaiswal,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/nishiket dharmik Kamla Nehru state.webp">
+        <div class="student-info">
+            <h2>Name:Nishiket  D</h2>
+            <h3>Subject :Computer science state</h3>
+            <h3>class:12th</h3>
+            <h3>college:Kamla Nehru college,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Pooja chulwirwar narayana.webp">
+        <div class="student-info">
+            <h2>Name:Pooja C</h2>
+            <h3>Subject :Computer science C++ CBSE</h3>
+            <h3>class:12th</h3>
+            <h3>school:Narayana Vidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/maitreyee nagrale snataji.webp">
+        <div class="student-info">
+            <h2>Name:Maitreyee N</h2>
+            <h3>Subject :Computer science C++ CBSE</h3>
+            <h3>class:12th</h3>
+            <h3>school:Santaji Dhanaji,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/vinit Yadav bsc Santaji cpp.webp">
+        <div class="student-info">
+            <h2>Name:Vinit Y</h2>
+            <h3>Subject :C++ </h3>
+            <h3>class:second year BSc</h3>
+            <h3>college:Santaji Dhanaji,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/pranav thakarey Priyadarshini poly.webp">
+        <div class="student-info">
+            <h2>Name:Pranava T</h2>
+            <h3>Subject :C </h3>
+            <h3>class:second year </h3>
+            <h3>college:Priyadarshini college,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/sumit dhabade os col DBMS ooml lp ddbms multimedia dwh vb Tulsiram.webp">
+        <div class="student-info">
+            <h2>NameSumit D</h2>
+            <h3>Subject :-OOM,Multimedia, OS,DIstributed DBMS</h3>
+            <h3>class:second year ,third year ,final year</h3>
+            <h3>college:Tulsiramji Gaikwad Patil college,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shubham Ramteke cgovt colg.webp">
+        <div class="student-info">
+            <h2>Name:Shubham R</h2>
+            <h3>Subject :Advanced C</h3>
+            <h3>class:second year </h3>
+            <h3>college:Government Polytechnic college,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/shweta desh c,c++,mup,de Biyani college.webp">
+        <div class="student-info">
+            <h2>Name:Shweta D</h2>
+            <h3>Subject :C,C++,Digital Electronics,Microprocessor</h3>
+            <h3>class:second year ,third year ,BCA </h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/IMG_20230409_084300.webp">
+        <div class="student-info">
+            <h2>Name:Riya S</h2>
+            <h3>Subject :Computer science Python CBSE</h3>
+            <h3>class:11th,12th</h3>
+            <h3>School:Kendriya Vidyalaya,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/IMG_20230409_084230.webp">
+        <div class="student-info">
+            <h2>Name:Siddhant K</h2>
+            <h3>Subject :Python </h3>
+            <h3>class:First year B.E.</h3>
+            <h3>College-St.Vincent Pallotti College of Engineering and technology,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/royal gondwana cbse.webp">
+        <div class="student-info">
+            <h2>Name:Aanchal K</h2>
+            <h3>Subject :ComputerScience C++ CBSE </h3>
+            <h3>class:12th</h3>
+            <h3>School-Royal Gondwana Public School,Shankarpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Himanshu zade 12th Vijaya Nimbalkar junior College.webp">
+        <div class="student-info">
+            <h2>Name:Himanshu Z</h2>
+            <h3>Subject :ComputerScience C++ CBSE </h3>
+            <h3>class:12th</h3>
+            <h3>School-Vijaya Nimbalkar,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/akshita Gotmare 12th yashoda ji hi sku.webp">
+        <div class="student-info">
+            <h2>Name:Akshita G</h2>
+            <h3>Subject :ComputerScience C++ CBSE </h3>
+            <h3>class:12th</h3>
+            <h3>School-Yashoda Junior High School,Nagpur</h3>
+        </div>
+    </div>
+    
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/IMG_20230409_184413.webp">
+        <div class="student-info">
+            <h2>Name:Dolly N</h2>
+            <h3>Subject :ComputerScience C++ CBSE </h3>
+            <h3>class:12th</h3>
+            <h3>School-St.Paul High School,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/IMG_20230409_184539.webp">
+        <div class="student-info">
+            <h2>Name:Jay N</h2>
+            <h3>Subject :C,C++</h3>
+            <h3>class:third year Polytechnic</h3>
+            
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/IMG_20230409_184509.webp">
+        <div class="student-info">
+            <h2>Name:Kishore L</h2>
+            <h3>Subject :C,C++</h3>
+            <h3>class:third year Polytechnic</h3>
+            
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/medha patil 12 cbse royal gondwana.webp">
+        <div class="student-info">
+            <h2>Name:Medha P</h2>
+            <h3>Subject :Computer science C++ CBSE</h3>
+            <h3>Class:12th</h3>
+            <h3>School :Royal Gondwana,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/Aditya Shahane vtc ju co.webp">
+        <div class="student-info">
+            <h2>Name:Aditya S</h2>
+            <h3>Subject :Computer science </h3>
+            <h3>Class:12th</h3>
+            <h3>School :VTC,Nagpur</h3>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/ajinkya burande state major hemant jate ju.webp">
+        <div class="student-info">
+            <h2>Name:Ajinkya B</h2>
+            <h3>Subject :Computer science State</h3>
+            <h3>Class:12th</h3>
+            <h3>School :Major Hemant Jakate,Nagpur</h3>
+        </div>
+    </div>
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/IMG-20230408-WA0007.webp">
+        <div class="student-info">
+            <h2>Name:Willis O</h2>
+            <h3>Subject :C++,Python</h3>
+            <h3>Mode :Online</h3>
+            <h3>Bachelors of Business Management,Moi University,Kenya.</h3>
+            
+        </div>
+    </div>
+    
+    <hr>
+    <div class="student-profile">
+        <img src="assets/images/IMG_20230706_085958.webp">
+        <div class="student-info">
+            <h2>Name:Jay R</h2>
+            <h3>Subject :C++,Data Structures,Python</h3>
+            <h3>Mode :Online</h3>
+            <h3>Class:Third year B.Voc</h3>
+            <h3>College-St.Vincent Pallotti College of Engineering and Technology,Nagpur</h3>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy;built by mamta</p>
+    </footer>
+
+</body>
+</html>
