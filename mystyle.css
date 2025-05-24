@@ -213,3 +213,53 @@ footer p{
 {
   padding: 20px;
 }
+.student-profile {
+  display: flex;
+  background-color:beige;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.student-info {
+  padding: 20px;
+  flex: 1;
+}
+
+.student-info h2,h3 {
+  margin-bottom: 10px;
+  color:black;
+}
+.stuu{
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .student-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .student-profile img {
+    width: 100%;
+  }
+
+  .student-info {
+    padding: 15px;
+    text-align: center;
+  }
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:beige;
+}
+body{
+    background: linear-gradient(to right,hwb(273 28% 53%),hwb(184 59% 34%));
+}
+img{
+    width: 300px;
+    height: 300px;
+}
