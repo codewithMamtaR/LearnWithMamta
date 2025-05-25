@@ -74,7 +74,7 @@ footer p{
   position: absolute;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.4);
-  top: 450px;
+  top: 420px;
   white-space: normal;
   box-sizing: border-box;
   z-index: 1;
@@ -196,7 +196,7 @@ footer p{
       display: flex;
     }
     .con{
-      top:300px;
+      top:400px;
     }
   }
   .recont{
@@ -236,7 +236,9 @@ footer p{
 .stuu{
   margin-top: 30px;
 }
-
+.con h5{
+  color: gold;
+}
 @media (max-width: 768px) {
   .student-profile {
     flex-direction: column;
